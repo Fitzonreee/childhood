@@ -47,7 +47,7 @@
       </div>
       <div class="grid-item">
         <h1>2013</h1>
-        <img src="dist/img/goofball_DMA.jpg"/>
+        <img src="dist/img/goofball_DMA.jpg" class="ig-earlybird"/>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>

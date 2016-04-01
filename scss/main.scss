@@ -5,13 +5,17 @@
 /* force scrollbar */
 html { overflow-y: scroll; }
 
-body { font-family: sans-serif; }
+body {
+  font-family: 'Lato', sans-serif;
+  h1 {
+    font-weight: 100 !important;
+    text-align: right;
+    padding: 0 5px;
+    margin: 0;
+  }
+ }
 
 /* ---- grid ---- */
-
-.grid {
-  background: #DDD;
-}
 
 /* clear fix */
 .grid:after {
@@ -34,4 +38,5 @@ body { font-family: sans-serif; }
 .grid-item img {
   display: block;
   max-width: 100%;
+  padding: 0 5px 5px 5px;
 }

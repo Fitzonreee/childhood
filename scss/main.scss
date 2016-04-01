@@ -10,8 +10,9 @@ body {
   h1 {
     font-weight: 100 !important;
     text-align: right;
-    padding: 0 5px;
+    padding: 10px 10px 0 10px;
     margin: 0;
+    font-size: 1.25em;
   }
  }
 
@@ -28,7 +29,8 @@ body {
 
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
+  // width: 33.333%;
+  width: 20%;
 }
 
 .grid-item {
@@ -38,5 +40,7 @@ body {
 .grid-item img {
   display: block;
   max-width: 100%;
-  padding: 0 5px 5px 5px;
+  padding: 0 10px;
 }
+
+// Add Lightbox!

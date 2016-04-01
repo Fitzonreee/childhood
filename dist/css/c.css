@@ -86,8 +86,9 @@ body {
   body h1 {
     font-weight: 100 !important;
     text-align: right;
-    padding: 0 5px;
-    margin: 0; }
+    padding: 10px 10px 0 10px;
+    margin: 0;
+    font-size: 1.25em; }
 
 /* ---- grid ---- */
 /* clear fix */
@@ -99,7 +100,7 @@ body {
 /* ---- .grid-item ---- */
 .grid-sizer,
 .grid-item {
-  width: 33.333%; }
+  width: 20%; }
 
 .grid-item {
   float: left; }
@@ -107,4 +108,4 @@ body {
 .grid-item img {
   display: block;
   max-width: 100%;
-  padding: 0 5px 5px 5px; }
+  padding: 0 10px; }

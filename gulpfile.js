@@ -52,4 +52,5 @@ gulp.task('watch', function() {
   gulp.watch('js/*.js', ['jshint', 'js']);
 });
 
-gulp.task('default', ['scss', 'csslint', 'js', 'jshint', 'watch']);
+gulp.task('default', ['scss', 'js', 'watch']);
+// gulp.task('default', ['scss', 'csslint', 'js', 'jshint', 'watch']);

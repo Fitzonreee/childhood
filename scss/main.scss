@@ -10,8 +10,7 @@ body {
   h1 {
     font-weight: 100 !important;
     text-align: right;
-    padding: 10px 10px 0 10px;
-    margin: 0;
+    margin: 0 0 3px 0;
     font-size: 1em;
   }
  }
@@ -35,12 +34,17 @@ body {
 
 .grid-item {
   float: left;
+  padding: 5px;
+}
+
+.item-content {
+  padding: 4px 8px 8px 8px;
+  background-color: rgba(213, 213, 213, 0.25);
 }
 
 .grid-item img {
   display: block;
   max-width: 100%;
-  padding: 0 10px;
 }
 
 // Add Lightbox!
